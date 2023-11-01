@@ -1,5 +1,5 @@
 # allsky_weather
-Adaption of the DanielGallo-script for TJ-Allsky
+Adaption of the DanielGallo-script for TJ-Allsky. 
 I wanted to use the script of Daniel Gallo for my allsky-installation in the overlay section.
 For that I have to define my own valiables. I called it DS_WETTER.
 My new script index-ds.js create a json-file with the structur:
