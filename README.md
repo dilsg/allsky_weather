@@ -23,7 +23,7 @@ I can use the variable DS_WETTER in the overlay-editor.
 
 The image of allsky looks like:
 
-    ![image](https://github.com/dilsg/allsky_weather/assets/52743419/9134fa32-bc6e-4a83-b537-84fa6a871fe8)
+![image](https://github.com/dilsg/allsky_weather/assets/52743419/9134fa32-bc6e-4a83-b537-84fa6a871fe8)
 
 
 
