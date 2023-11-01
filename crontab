@@ -1,0 +1,1 @@
+*/10 * * * * /usr/bin/node /home/pi/AllSkyWeather-main/index_ds.js s --output=/home/pi/allsky/config/overlay/extra/weatherds.json --key=xxxxxxxxxxxxxxxxxxx --city=Dresden --region=Europe/Berlin
