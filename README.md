@@ -14,7 +14,7 @@ My new script index-ds.js creates a json-file with the structur:
     "}}
 
 I use crontab to start every 5 minutes the script
-*/5 * * * * /usr/bin/node /home/pi/AllSkyWeather-main/index_ds.js s --output=/home/pi/allsky/config/overlay/extra/weatherds.json --key=xxxxxxxxxxxxxxxxxxx --city=Dresden --region=Europe/Berlin
+    */5 * * * * /usr/bin/node /home/pi/AllSkyWeather-main/index_ds.js s --output=/home/pi/allsky/config/overlay/extra/weatherds.json --key=xxxxxxxxxxxxxxxxxxx --city=Dresden --region=Europe/Berlin
 
 For using node I followed the instructions of Daniel Gallo. 
 
