@@ -1,7 +1,7 @@
 # allsky_weather
 Adaption of the DanielGallo-script for TJ-Allsky. 
 
-I wanted to use the script of Daniel Gallo for my allsky-installation in the overlay section.
+I wanted to use the script of Daniel Gallo  for the overlay section in my allsky-installation.
 
 For that I defined my own valiable. I called it DS_WETTER.
 
@@ -9,7 +9,7 @@ My new script index-ds.js creates a json-file with the structur:
 
     {"DS_WETTER": {  "value": "
 
-    --- Data from the originasl DanielGallo script with always \n at the EndOfLines
+    --- Data from the original DanielGallo script with some modification : always \n at the EndOfLines
 
     "}}
 
@@ -20,6 +20,24 @@ For using node I followed the instructions of Daniel Gallo.
 
 With this file in the extra-file-directory ~/allsky/config/overlay/extra/
 I can use the variable DS_WETTER in the overlay-editor.
+
+Some problems with defining the variable DS_WETTER
+ - in the variable manager
+ - in the file userfileds.json in overlay/config
+   
+       {
+        "data": [
+        {   "id": 100,
+            "name": "${DS_WETTER}",
+            "description": "DD Wetter",
+            "format": "",
+            "sample": "WetterDATE",
+            "type": "Text",
+            "source": "My"
+        }
+       ]
+          }
+
 
 The image of allsky looks like:
 
