@@ -21,7 +21,7 @@ For using node I followed the instructions of Daniel Gallo.
 With this file in the extra-file-directory ~/allsky/config/overlay/extra/
 I can use the variable DS_WETTER in the overlay-editor.
 
-Some problems with defining the variable DS_WETTER
+# Some problems with defining the variable DS_WETTER
  - in the variable manager
  - in the file userfileds.json in overlay/config
    
@@ -39,7 +39,7 @@ Some problems with defining the variable DS_WETTER
           }
 
 
-The image of allsky looks like:
+# The image of allsky looks like:
 
 ![image](https://github.com/dilsg/allsky_weather/assets/52743419/9134fa32-bc6e-4a83-b537-84fa6a871fe8)
 
