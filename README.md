@@ -23,7 +23,7 @@ I can use the variable DS_WETTER in the overlay-editor.
 
 # Some problems with defining the variable DS_WETTER
  - in the variable manager
- - in the file userfileds.json in overlay/config
+ - in the file userfields.json in overlay/config
    
        {
         "data": [
