@@ -7,11 +7,11 @@ For that I defined my own valiable. I called it DS_WETTER.
 
 My new script index-ds.js creates a json-file with the structur:
 
-{"DS_WETTER": {  "value": "
+    {"DS_WETTER": {  "value": "
 
---- Data from the originasl DanielGallo script with always \n at the EndOfLines
+    --- Data from the originasl DanielGallo script with always \n at the EndOfLines
 
-"}}
+    "}}
 
 I use crontab to start every 5 minutes the script
 */5 * * * * /usr/bin/node /home/pi/AllSkyWeather-main/index_ds.js s --output=/home/pi/allsky/config/overlay/extra/weatherds.json --key=xxxxxxxxxxxxxxxxxxx --city=Dresden --region=Europe/Berlin
