@@ -3,7 +3,7 @@ Adaption of the DanielGallo-script for TJ-Allsky.
 
 I wanted to use the script of Daniel Gallo [https://github.com/DanielGallo/AllSkyWeather]  for the overlay section in my allsky-installation.
 
-For that I defined my own valiable. I called it DS_WETTER.
+For that I defined my own variable. I called it DS_WETTER.
 
 My new script index-ds.js creates a json-file with the structur:
 
